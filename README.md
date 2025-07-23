@@ -1,11 +1,11 @@
 # Employee-Salary-Prediction
-# 🧠 Income Classification using XGBoost
+# Income Classification using XGBoost
 
 This project predicts whether an individual's income exceeds $50K/year using the UCI Adult Income dataset. It applies data preprocessing and uses the XGBoost algorithm for binary classification.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [UCI Adult Income Dataset](https://archive.ics.uci.edu/ml/datasets/adult)
 - **Target Variable**: `income` (`<=50K` or `>50K`)
@@ -15,7 +15,7 @@ This project predicts whether an individual's income exceeds $50K/year using the
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Build a machine learning pipeline to:
 - Preprocess the dataset (handle missing values, encode categorical variables, scale numeric features)
@@ -25,7 +25,7 @@ Build a machine learning pipeline to:
 
 ---
 
-## 🔧 Technologies & Libraries
+## Technologies & Libraries
 
 - Python 3.x
 - pandas, numpy
@@ -35,7 +35,7 @@ Build a machine learning pipeline to:
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Data Cleaning**
    - Replace `'?'` with `NaN`
@@ -62,7 +62,7 @@ Build a machine learning pipeline to:
 
 ---
 
-## ✅ Example Results
+## Example Results
 
 | Metric              | Value (Approx) |
 |---------------------|----------------|
@@ -74,11 +74,11 @@ Build a machine learning pipeline to:
 
 ---
 
-## 📈 Visual Output
+## Visual Output
 
-- 📊 Confusion Matrix  
-- 📉 ROC Curve  
-- 🌟 XGBoost Feature Importances
+- Confusion Matrix  
+- ROC Curve  
+- XGBoost Feature Importances
 
 ---
 
